@@ -14,6 +14,11 @@
 		71C7DB7824DB830900B22771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C7DB7724DB830900B22771 /* Assets.xcassets */; };
 		71C7DB7B24DB830900B22771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C7DB7924DB830900B22771 /* LaunchScreen.storyboard */; };
 		71C7DB8624DB830900B22771 /* TestTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7DB8524DB830900B22771 /* TestTableViewTests.swift */; };
+		71C7DB9124DB83FE00B22771 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7DB9024DB83FE00B22771 /* UIView+Extension.swift */; };
+		71C7DB9324DB84CF00B22771 /* TestTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7DB9224DB84CF00B22771 /* TestTableView.swift */; };
+		71C7DB9524DB861800B22771 /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7DB9424DB861800B22771 /* TestTableViewCell.swift */; };
+		71C7DB9724DB882C00B22771 /* TestTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7DB9624DB882C00B22771 /* TestTableViewModel.swift */; };
+		71C7DB9924DB9C1C00B22771 /* AddTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7DB9824DB9C1C00B22771 /* AddTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		71C7DB8124DB830900B22771 /* TestTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C7DB8524DB830900B22771 /* TestTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewTests.swift; sourceTree = "<group>"; };
 		71C7DB8724DB830900B22771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C7DB9024DB83FE00B22771 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		71C7DB9224DB84CF00B22771 /* TestTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableView.swift; sourceTree = "<group>"; };
+		71C7DB9424DB861800B22771 /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		71C7DB9624DB882C00B22771 /* TestTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewModel.swift; sourceTree = "<group>"; };
+		71C7DB9824DB9C1C00B22771 /* AddTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,11 @@
 				71C7DB7724DB830900B22771 /* Assets.xcassets */,
 				71C7DB7924DB830900B22771 /* LaunchScreen.storyboard */,
 				71C7DB7C24DB830900B22771 /* Info.plist */,
+				71C7DB9024DB83FE00B22771 /* UIView+Extension.swift */,
+				71C7DB9224DB84CF00B22771 /* TestTableView.swift */,
+				71C7DB9424DB861800B22771 /* TestTableViewCell.swift */,
+				71C7DB9624DB882C00B22771 /* TestTableViewModel.swift */,
+				71C7DB9824DB9C1C00B22771 /* AddTableViewCell.swift */,
 			);
 			path = TestTableView;
 			sourceTree = "<group>";
@@ -200,9 +215,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C7DB9324DB84CF00B22771 /* TestTableView.swift in Sources */,
 				71C7DB7324DB830500B22771 /* ViewController.swift in Sources */,
 				71C7DB6F24DB830500B22771 /* AppDelegate.swift in Sources */,
+				71C7DB9124DB83FE00B22771 /* UIView+Extension.swift in Sources */,
 				71C7DB7124DB830500B22771 /* SceneDelegate.swift in Sources */,
+				71C7DB9924DB9C1C00B22771 /* AddTableViewCell.swift in Sources */,
+				71C7DB9524DB861800B22771 /* TestTableViewCell.swift in Sources */,
+				71C7DB9724DB882C00B22771 /* TestTableViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
